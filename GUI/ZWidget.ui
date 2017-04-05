@@ -126,6 +126,9 @@
           <height>0</height>
          </size>
         </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
         <property name="minimum">
          <double>-300.000000000000000</double>
         </property>
@@ -176,6 +179,9 @@
           <width>0</width>
           <height>0</height>
          </size>
+        </property>
+        <property name="decimals">
+         <number>0</number>
         </property>
         <property name="maximum">
          <double>300.000000000000000</double>

@@ -18,7 +18,7 @@ class Axis(QtWidgets.QWidget):
 
         #Declaring Device
         if tctEnable:
-            self.axis = PyTCT.motor(Device)
+            self.axis = PyTCT.Motor(Device)
 
         #Jogging Plus
         self.ui.JogPlus.pressed.connect(self.JogPlus)
@@ -200,7 +200,7 @@ class MainWidget(QtWidgets.QWidget):
         # X Detector
         XD_Title = "X Detector"
         XD_Device = "testxdet"
-        XD_Device = "xi-com:///dev/tty.usbmodem00000D81"
+        #XD_Device = "xi-com:///dev/tty.usbmodem00000D81"
         XD_uiFile = "GUI/XWidget.ui"
         self.XDetector = Axis(self, XD_Title, XD_Device, XD_uiFile)
 

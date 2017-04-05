@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>229</width>
-    <height>77</height>
+    <height>112</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,10 +22,18 @@
     </widget>
    </item>
    <item row="1" column="0">
-    <widget class="QDoubleSpinBox" name="LowerLimit"/>
+    <widget class="QDoubleSpinBox" name="LowerLimit">
+     <property name="decimals">
+      <number>0</number>
+     </property>
+    </widget>
    </item>
    <item row="1" column="1">
-    <widget class="QDoubleSpinBox" name="UpperLimit"/>
+    <widget class="QDoubleSpinBox" name="UpperLimit">
+     <property name="decimals">
+      <number>0</number>
+     </property>
+    </widget>
    </item>
    <item row="0" column="0">
     <widget class="QLabel" name="LabelLower">
